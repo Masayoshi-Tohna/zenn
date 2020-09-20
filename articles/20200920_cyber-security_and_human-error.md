@@ -1,9 +1,9 @@
 ---
-title: "サイバーセキュリティとヒューマンエラー" # 記事のタイトル
-emoji: "🛡" # アイキャッチとして使われる絵文字（1文字だけ）
-type: "idea" # tech: 技術記事 / idea: アイデア記事
-topics: ["security"] # タグ。["markdown", "rust", "aws"]のように指定する
-published: false # 公開設定（falseにすると下書き）
+title: "サイバーセキュリティとヒューマンエラー"
+emoji: "🛡"
+type: "idea"
+topics: ["security"]
+published: true
 ---
 
 # サイバーセキュリティとヒューマンエラー
@@ -20,13 +20,13 @@ TechCrunch Japanがメールセキュリティに革新をもたらしつつあ�
 
 実際のところどうなのかと思い調べてみたところ、IBMによる[2020年の調査](https://www.ibm.com/security/digital-assets/cost-data-breach-report/#/ja)が見つかりました。これによれば、情報漏えいの原因の23%が人的ミスによるもの、25%がシステムの欠陥、52%が悪意のある攻撃ということです。情報漏えいインシデントに限った話ではありますが、およそ四分の一のインシデントが人的ミスに起因しているということなので、あながち間違いではないのかもしれません。
 
-![](https://storage.googleapis.com/zenn-user-upload/q9x8p2eiqhvkluhv7at7slhs96td =800x)
+![](https://storage.googleapis.com/zenn-user-upload/q9x8p2eiqhvkluhv7at7slhs96td =500x)
 
 転載：[Cost of a Data Breach Report 2020 \| IBM](https://www.ibm.com/security/digital-assets/cost-data-breach-report/#/ja)
 
 また、52%がハッカーや内部の犯罪者によって引き起こされた悪意のある攻撃ということですが、この中には人間の脆弱性を突く攻撃であるソーシャル・エンジニアリングやフィッシングのような人間起因のインシデントも含まれます。悪意のある攻撃の中で、いわゆるシステムへの攻撃に含まれそうなのは「サード・パーティ・ソフトウェアの脆弱性」「物理的セキュリティの侵害」あたりでわずか26%しかありません。システムの構成ミスなども結局は人間起因のものなので、人間という脆弱性を取り除けばセキュリティが強化されるという理論は間違いないと言えそうです。
 
-![](https://storage.googleapis.com/zenn-user-upload/nuynvq6puzio4zr4w1uuco03n28a =800x)
+![](https://storage.googleapis.com/zenn-user-upload/nuynvq6puzio4zr4w1uuco03n28a =500x)
 
 転載：[Cost of a Data Breach Report 2020 \| IBM](https://www.ibm.com/security/digital-assets/cost-data-breach-report/#/ja)
 
