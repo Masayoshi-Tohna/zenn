@@ -3,7 +3,7 @@ title: "RAID アーキテクチャ"
 emoji: "💾"
 type: "idea"
 topics: ["disk", "storage", "reliability", "RAID"]
-published: false
+published: true
 ---
 
 ## RAIDとは
@@ -14,7 +14,7 @@ Redundant Array of Independent Diskの略で、複数のディスクにデータ
 
 RAIDタイプは0～6で表され、それぞれ特徴があります。現代においてはRAID 5、RAID 1+0、RAID 6が信頼性および耐障害性の面から推奨されます。
 
-![](https://storage.googleapis.com/zenn-user-upload/jreyqia37wtol5m4osg9ts1v4vd2 =500x)
+![](https://storage.googleapis.com/zenn-user-upload/jreyqia37wtol5m4osg9ts1v4vd2)
 
 ▲ RAIDタイプの比較表
 
