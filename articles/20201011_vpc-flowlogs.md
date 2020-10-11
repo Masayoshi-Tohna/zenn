@@ -58,246 +58,75 @@ AWSのVPC FlowLogsは、1分または10分のAggregation Intervalを指定し、
 
 まずは連続したパケットを送りつけた結果です。Aggregation interval通り、1レコードは59秒（=約1分）の経過時間となっており、その間に85パケットが通過したことになっています。
 
-<table>
-	<tr>
-		<td>timestamp</td>
-		<td>1602397806</td>
-	</tr>
-	<tr>
-		<td>*timestamp</td>
-		<td>2020/10/11(日) 15:30:06</td>
-	</tr>
-	<tr>
-		<td>version</td>
-		<td>2</td>
-	</tr>
-	<tr>
-		<td>account-id</td>
-		<td>xxxxxxxxxxxx</td>
-	</tr>
-	<tr>
-		<td>interface-id</td>
-		<td>eni-0ff9b2e1f8edb8688</td>
-	</tr>
-	<tr>
-		<td>srcaddr</td>
-		<td>xxx.xxx.xxx.xxx</td>
-	</tr>
-	<tr>
-		<td>dstaddr</td>
-		<td>10.255.1.22</td>
-	</tr>
-	<tr>
-		<td>srcport</td>
-		<td>52233</td>
-	</tr>
-	<tr>
-		<td>dstport</td>
-		<td>22</td>
-	</tr>
-	<tr>
-		<td>protocol</td>
-		<td>6</td>
-	</tr>
-	<tr>
-		<td>packets</td>
-		<td><b>85</b></td>
-	</tr>
-	<tr>
-		<td>bytes</td>
-		<td>8216</td>
-	</tr>
-	<tr>
-		<td>start(unixtime)</td>
-		<td>1602397806</td>
-	</tr>
-	<tr>
-		<td>*start</td>
-		<td>2020/10/11(日) 15:30:06</td>
-	</tr>
-	<tr>
-		<td>end(unixtime)</td>
-		<td>1602397865</td>
-	</tr>
-	<tr>
-		<td>*end</td>
-		<td>2020/10/11(日) 15:31:05</td>
-	</tr>
-	<tr>
-		<td>*経過時間</td>
-		<td><b>0:00:59</b></td>
-	</tr>
-	<tr>
-		<td>action</td>
-		<td>ACCEPT</td>
-	</tr>
-	<tr>
-		<td>log-status</td>
-		<td>OK</td>
-	</tr>
-</table>
+フィールド | 値
+-- | --
+timestamp | 1602397806
+*timestamp | 2020/10/11(日)   15:30:06
+version | 2
+account-id | xxxxxxxxxxxx
+interface-id | eni-0ff9b2e1f8edb8688
+srcaddr | xxx.xxx.xxx.xxx
+dstaddr | 10.255.1.22
+srcport | 52233
+dstport | 22
+protocol | 6
+packets | **85**
+bytes | 8216
+start(unixtime) | 1602397806
+*start | 2020/10/11(日)   15:30:06
+end(unixtime) | 1602397865
+*end | 2020/10/11(日)   15:31:05
+*経過時間 | **0:00:59**
+action | ACCEPT
+log-status | OK
 
 一方で、1パケットしか通過しなくても1レコードが59秒（=約1分）のレコードも存在しました。これが、ドキュメントに記載されている「パケットがネットワークインターフェイス上で送信または受信されてから最大60秒になる場合がある」という事象のようです。
 
-<table>
-	<tr>
-		<td>timestamp</td>
-		<td>1602397446</td>
-	</tr>
-	<tr>
-		<td>*timestamp</td>
-		<td>2020/10/11(日) 15:24:06</td>
-	</tr>
-	<tr>
-		<td>version</td>
-		<td>2</td>
-	</tr>
-	<tr>
-		<td>account-id</td>
-		<td>xxxxxxxxxxxx</td>
-	</tr>
-	<tr>
-		<td>interface-id</td>
-		<td>eni-0ff9b2e1f8edb8688</td>
-	</tr>
-	<tr>
-		<td>srcaddr</td>
-		<td>xxx.xxx.xxx.xxx</td>
-	</tr>
-	<tr>
-		<td>dstaddr</td>
-		<td>10.255.1.22</td>
-	</tr>
-	<tr>
-		<td>srcport</td>
-		<td>52233</td>
-	</tr>
-	<tr>
-		<td>dstport</td>
-		<td>22</td>
-	</tr>
-	<tr>
-		<td>protocol</td>
-		<td>6</td>
-	</tr>
-	<tr>
-		<td>packets</td>
-		<td><b>1</b></td>
-	</tr>
-	<tr>
-		<td>bytes</td>
-		<td>136</td>
-	</tr>
-	<tr>
-		<td>start(unixtime)</td>
-		<td>1602397446</td>
-	</tr>
-	<tr>
-		<td>*start</td>
-		<td>2020/10/11(日) 15:24:06</td>
-	</tr>
-	<tr>
-		<td>end(unixtime)</td>
-		<td>1602397505</td>
-	</tr>
-	<tr>
-		<td>*end</td>
-		<td>2020/10/11(日) 15:25:05</td>
-	</tr>
-	<tr>
-		<td>*経過時間</td>
-		<td>0:00:59</td>
-	</tr>
-	<tr>
-		<td>action</td>
-		<td>ACCEPT</td>
-	</tr>
-	<tr>
-		<td>log-status</td>
-		<td>OK</td>
-	</tr>
-</table>
+フィールド | 値
+-- | --
+timestamp | 1602397446
+*timestamp | 2020/10/11(日)   15:24:06
+version | 2
+account-id | xxxxxxxxxxxx
+interface-id | eni-0ff9b2e1f8edb8688
+srcaddr | xxx.xxx.xxx.xxx
+dstaddr | 10.255.1.22
+srcport | 52233
+dstport | 22
+protocol | 6
+packets | 1
+bytes | 136
+start(unixtime) | 1602397446
+*start | 2020/10/11(日)   15:24:06
+end(unixtime) | 1602397505
+*end | 2020/10/11(日)   15:25:05
+*経過時間 | 0:00:59
+action | ACCEPT
+log-status | OK
 
 「最大60秒」と言っていることからわかるように、以下の例では経過時間が39秒となっており、必ずしも経過時間が1分となるわけではないようです。
 
-<table>
-	<tr>
-		<td>timestamp</td>
-		<td>1602397706</td>
-	</tr>
-	<tr>
-		<td>*timestamp</td>
-		<td>2020/10/11(日) 15:28:26</td>
-	</tr>
-	<tr>
-		<td>version</td>
-		<td>2</td>
-	</tr>
-	<tr>
-		<td>account-id</td>
-		<td>xxxxxxxxxxxx</td>
-	</tr>
-	<tr>
-		<td>interface-id</td>
-		<td>eni-0ff9b2e1f8edb8688</td>
-	</tr>
-	<tr>
-		<td>srcaddr</td>
-		<td>xxx.xxx.xxx.xxx</td>
-	</tr>
-	<tr>
-		<td>dstaddr</td>
-		<td>10.255.1.22</td>
-	</tr>
-	<tr>
-		<td>srcport</td>
-		<td>52233</td>
-	</tr>
-	<tr>
-		<td>dstport</td>
-		<td>22</td>
-	</tr>
-	<tr>
-		<td>protocol</td>
-		<td>6</td>
-	</tr>
-	<tr>
-		<td>packets</td>
-		<td><b>1</b></td>
-	</tr>
-	<tr>
-		<td>bytes</td>
-		<td>136</td>
-	</tr>
-	<tr>
-		<td>start(unixtime)</td>
-		<td>1602397706</td>
-	</tr>
-	<tr>
-		<td>*start</td>
-		<td>2020/10/11(日) 15:28:26</td>
-	</tr>
-	<tr>
-		<td>end(unixtime)</td>
-		<td>1602397745</td>
-	</tr>
-	<tr>
-		<td>*end</td>
-		<td>2020/10/11(日) 15:29:05</td>
-	</tr>
-	<tr>
-		<td>*経過時間</td>
-		<td><b>0:00:39</b></td>
-	</tr>
-	<tr>
-		<td>action</td>
-		<td>ACCEPT</td>
-	</tr>
-	<tr>
-		<td>log-status</td>
-		<td>OK</td>
-	</tr>
-</table>
+フィールド | 値
+-- | --
+timestamp | 1602397706
+*timestamp | 2020/10/11(日)   15:28:26
+version | 2
+account-id | xxxxxxxxxxxx
+interface-id | eni-0ff9b2e1f8edb8688
+srcaddr | xxx.xxx.xxx.xxx
+dstaddr | 10.255.1.22
+srcport | 52233
+dstport | 22
+protocol | 6
+packets | 1
+bytes | 136
+start(unixtime) | 1602397706
+*start | 2020/10/11(日)   15:28:26
+end(unixtime) | 1602397745
+*end | 2020/10/11(日)   15:29:05
+*経過時間 | 0:00:39
+action | ACCEPT
+log-status | OK
 
 ## まとめ
 
