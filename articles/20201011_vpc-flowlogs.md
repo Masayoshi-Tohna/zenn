@@ -81,13 +81,13 @@ dstaddr | 10.255.1.22
 srcport | 52233
 dstport | 22
 protocol | 6
-packets | 1
+packets | **1**
 bytes | 136
 start(unixtime) | 1602397446
 *start | 2020/10/11(日)   15:24:06
 end(unixtime) | 1602397505
 *end | 2020/10/11(日)   15:25:05
-*経過時間 | 0:00:59
+*経過時間 | **0:00:59**
 action | ACCEPT
 log-status | OK
 
@@ -105,13 +105,13 @@ dstaddr | 10.255.1.22
 srcport | 52233
 dstport | 22
 protocol | 6
-packets | 1
+packets | **1**
 bytes | 136
 start(unixtime) | 1602397706
 *start | 2020/10/11(日)   15:28:26
 end(unixtime) | 1602397745
 *end | 2020/10/11(日)   15:29:05
-*経過時間 | 0:00:39
+*経過時間 | **0:00:39**
 action | ACCEPT
 log-status | OK
 
