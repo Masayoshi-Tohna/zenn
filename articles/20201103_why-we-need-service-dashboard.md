@@ -1,5 +1,5 @@
 ---
-title: "対障害用語を覚えよう"
+title: "運用を可視化するためのアイデア"
 emoji: "📖"
 type: "idea"
 topics: ["可視化", "Ops", "AWS", "dashboard"]
