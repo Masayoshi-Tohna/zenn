@@ -6,7 +6,7 @@ topics: ["linux", "bash", "shell script", "command"]
 published: true
 ---
 
-# date
+# dateコマンドの使い方
 
 [GNU date](https://www.gnu.org/software/coreutils/manual/html_node/Examples-of-date.html)コマンドに再入門したのでメモとして残しておきます。
 
