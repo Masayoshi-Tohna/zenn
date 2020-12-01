@@ -8,6 +8,10 @@ published: true
 
 # システム構成図をテキストで
 
+> 💡：Gigazineさんでdrawthe.netを取り上げていたので紹介です。使い方はGigazineさんのほうが丁寧なので、気になる方はチェックしてみてください。（2020年12月1日、追記）
+
+https://gigazine.net/news/20201201-draw-the-net/
+
 ## drawthe.netとは
 
 [cidrblock/drawthe\.net](https://github.com/cidrblock/drawthe.net)は複雑なネットワーク図も「テキストで書いてブラウザ上でSVGレンダリングできるようにしよう」というコンセプトのもと開発されたツールです。下図のように複雑な構成図も精度高く描くことができます。
