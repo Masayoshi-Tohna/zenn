@@ -8,7 +8,9 @@ published: true
 
 # システム構成図をテキストで
 
-> 💡：Gigazineさんでdrawthe.netを取り上げていたので紹介です。使い方はGigazineさんのほうが丁寧なので、気になる方はチェックしてみてください。（2020年12月1日、追記）
+:::message
+Gigazineさんでdrawthe.netを取り上げていたので紹介です。使い方はGigazineさんのほうが丁寧なので、気になる方はチェックしてみてください。（2020年12月1日、追記）
+:::
 
 https://gigazine.net/news/20201201-draw-the-net/
 
