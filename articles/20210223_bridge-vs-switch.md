@@ -1,6 +1,6 @@
 ---
 title: "ブリッジとスイッチの違い"
-emoji: "🛠"
+emoji: "😇"
 type: "tech"
 topics: ["ネットワーク", "レイヤー2", "情報処理技術者試験"]
 published: true
