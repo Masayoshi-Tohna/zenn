@@ -26,7 +26,7 @@ Osaka | 53
 有名どころだと、AWS Auto ScalingやAWS Security Hub、AWS Transit Gatewayなどが大阪リージョンにはないようです。
 
 service | tokyo | osaka
--- | -- | --
+-- | :--: | :--:
 AWS Amplify | ○ | －
 AWS App Mesh | ○ | －
 AWS AppSync | ○ | －
