@@ -19,7 +19,7 @@ published: true
 Region | Num
 -- | --
 Tokyo | 168
-Osaka | 53
+Osaka | 54
 
 ## 機能差異一覧
 
