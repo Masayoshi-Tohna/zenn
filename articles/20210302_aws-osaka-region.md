@@ -139,7 +139,7 @@ Amazon Elastic Block Store (EBS) | ○ | ○
 Amazon Elastic Compute Cloud (EC2) | ○ | ○
 Amazon Elastic Container Registry (ECR) | ○ | ○
 Amazon Elastic Container Service (ECS) | ○ | ○
-Amazon Elastic File System (EFS) | ○ | －
+Amazon Elastic File System (EFS) | ○ | ○
 Amazon Elastic Inference | ○ | －
 Amazon Elastic Kubernetes Service (EKS) | ○ | ○
 Amazon Elastic MapReduce (EMR) | ○ | ○
@@ -197,5 +197,9 @@ FreeRTOS | ○ | －
 VMware Cloud on AWS | ○ | －
 
 これからの発展に期待ですね！
+
+## 更新履歴
+
+- 2021/03/05：Amazon Elastic File System (EFS)の更新を確認。
 
 以上
