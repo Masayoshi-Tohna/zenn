@@ -200,6 +200,7 @@ VMware Cloud on AWS | ○ | －
 
 ## 更新履歴
 
+- 2021/03/05：一覧にはないが、大阪リージョンではCloudShellも使えない模様。
 - 2021/03/05：Amazon Elastic File System (EFS)の更新を確認。
 
 以上
