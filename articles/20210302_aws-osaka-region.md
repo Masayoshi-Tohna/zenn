@@ -19,7 +19,7 @@ published: true
 Region | Num
 -- | --
 Tokyo | 168
-Osaka | 54
+Osaka | 56
 
 ## 機能差異一覧
 
@@ -35,7 +35,7 @@ AWS Artifact | ○ | ○
 AWS Audit Manager | ○ | －
 AWS Auto Scaling | ○ | －
 AWS Backup | ○ | －
-AWS Batch | ○ | －
+AWS Batch | ○ | ○
 AWS Budgets | ○ | －
 AWS Certificate Manager | ○ | ○
 AWS Chatbot | ○ | －
@@ -68,7 +68,7 @@ AWS Elemental MediaStore | ○ | －
 AWS Elemental MediaTailor | ○ | －
 AWS Fargate | ○ | ○
 AWS Firewall Manager | ○ | －
-AWS Global Accelerator | ○ | －
+AWS Global Accelerator | ○ | ○
 AWS Glue | ○ | ○
 AWS IQ | ○ | ○
 AWS Identity and Access Management (IAM) | ○ | ○
@@ -200,6 +200,7 @@ VMware Cloud on AWS | ○ | －
 
 ## 更新履歴
 
+- 2021/03/18：AWS BatchとAWS Global Acceleratorが追加されていました！
 - 2021/03/05：一覧にはないが、大阪リージョンではCloudShellも使えない模様。
 - 2021/03/05：Amazon Elastic File System (EFS)の更新を確認。
 
