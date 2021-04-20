@@ -23,99 +23,8 @@ Osaka | 56
 
 ## 機能差異一覧
 
-有名どころだと、AWS Auto ScalingやAWS Security Hub、AWS Transit Gatewayなどが大阪リージョンにはないようです。
-
 service | tokyo | osaka
--- | :--: | :--:
-AWS Amplify | ○ | －
-AWS App Mesh | ○ | －
-AWS AppSync | ○ | －
-AWS Application Discovery Service | ○ | －
-AWS Artifact | ○ | ○
-AWS Audit Manager | ○ | －
-AWS Auto Scaling | ○ | －
-AWS Backup | ○ | －
-AWS Batch | ○ | ○
-AWS Budgets | ○ | －
-AWS Certificate Manager | ○ | ○
-AWS Chatbot | ○ | －
-AWS Cloud Map | ○ | －
-AWS Cloud9 | ○ | －
-AWS CloudFormation | ○ | ○
-AWS CloudHSM | ○ | －
-AWS CloudTrail | ○ | ○
-AWS CodeArtifact | ○ | －
-AWS CodeBuild | ○ | －
-AWS CodeCommit | ○ | －
-AWS CodeDeploy | ○ | ○
-AWS CodePipeline | ○ | －
-AWS CodeStar | ○ | －
-AWS Compute Optimizer | ○ | －
-AWS Config | ○ | ○
-AWS Data Exchange | ○ | －
-AWS Data Pipeline | ○ | －
-AWS DataSync | ○ | －
-AWS Database Migration Service | ○ | ○
-AWS DeepLens | ○ | －
-AWS Direct Connect | ○ | ○
-AWS Directory Service | ○ | －
-AWS Elastic Beanstalk | ○ | ○
-AWS Elemental MediaConnect | ○ | －
-AWS Elemental MediaConvert | ○ | －
-AWS Elemental MediaLive | ○ | －
-AWS Elemental MediaPackage | ○ | －
-AWS Elemental MediaStore | ○ | －
-AWS Elemental MediaTailor | ○ | －
-AWS Fargate | ○ | ○
-AWS Firewall Manager | ○ | －
-AWS Global Accelerator | ○ | ○
-AWS Glue | ○ | ○
-AWS IQ | ○ | ○
-AWS Identity and Access Management (IAM) | ○ | ○
-AWS IoT 1-Click | ○ | －
-AWS IoT Analytics | ○ | －
-AWS IoT Core | ○ | －
-AWS IoT Device Defender | ○ | －
-AWS IoT Device Management | ○ | －
-AWS IoT Events | ○ | －
-AWS IoT Greengrass | ○ | －
-AWS IoT Things Graph | ○ | －
-AWS Key Management Service | ○ | ○
-AWS Lake Formation | ○ | －
-AWS Lambda | ○ | ○
-AWS License Manager | ○ | －
-AWS Managed Services | ○ | －
-AWS Marketplace | ○ | ○
-AWS Migration Hub | ○ | －
-AWS OpsWorks Stacks | ○ | －
-AWS OpsWorks for Chef Automate | ○ | －
-AWS OpsWorks for Puppet Enterprise | ○ | －
-AWS Organizations | ○ | ○
-AWS Outposts | ○ | －
-AWS Personal Health Dashboard | ○ | ○
-AWS PrivateLink | ○ | ○
-AWS Proton | ○ | －
-AWS Resource Access Manager (RAM) | ○ | －
-AWS RoboMaker | ○ | －
-AWS Secrets Manager | ○ | ○
-AWS Security Hub | ○ | －
-AWS Server Migration Service (SMS) | ○ | －
-AWS Serverless Application Repository | ○ | －
-AWS Service Catalog | ○ | －
-AWS Shield | ○ | －
-AWS Single Sign-On | ○ | －
-AWS Snowball | ○ | ○
-AWS Step Functions | ○ | ○
-AWS Storage Gateway | ○ | －
-AWS Support | ○ | ○
-AWS Systems Manager | ○ | ○
-AWS Transfer Family | ○ | －
-AWS Transit Gateway | ○ | －
-AWS Trusted Advisor | ○ | －
-AWS VPN | ○ | ○
-AWS WAF | ○ | －
-AWS Well-Architected Tool | ○ | －
-AWS X-Ray | ○ | ○
+-- | -- | --
 Amazon API Gateway | ○ | ○
 Amazon AppFlow | ○ | －
 Amazon AppStream 2.0 | ○ | －
@@ -132,27 +41,27 @@ Amazon Comprehend | ○ | －
 Amazon Connect | ○ | －
 Amazon Detective | ○ | －
 Amazon DevOps Guru | ○ | －
-Amazon DocumentDB (with MongoDB   compatibility) | ○ | －
+Amazon DocumentDB (with   MongoDB compatibility) | ○ | －
 Amazon DynamoDB | ○ | ○
-Amazon ElastiCache | ○ | ○
-Amazon Elastic Block Store (EBS) | ○ | ○
-Amazon Elastic Compute Cloud (EC2) | ○ | ○
-Amazon Elastic Container Registry (ECR) | ○ | ○
-Amazon Elastic Container Service (ECS) | ○ | ○
-Amazon Elastic File System (EFS) | ○ | ○
+Amazon Elastic Block Store   (EBS) | ○ | ○
+Amazon Elastic Compute Cloud   (EC2) | ○ | ○
+Amazon Elastic Container   Registry (ECR) | ○ | ○
+Amazon Elastic Container   Service (ECS) | ○ | ○
+Amazon Elastic File System   (EFS) | ○ | ○
 Amazon Elastic Inference | ○ | －
-Amazon Elastic Kubernetes Service (EKS) | ○ | ○
-Amazon Elastic MapReduce (EMR) | ○ | ○
+Amazon Elastic Kubernetes   Service (EKS) | ○ | ○
+Amazon Elastic MapReduce   (EMR) | ○ | ○
 Amazon Elastic Transcoder | ○ | －
+Amazon ElastiCache | ○ | ○
 Amazon Elasticsearch Service | ○ | ○
 Amazon EventBridge | ○ | ○
-Amazon FSx for Lustre | ○ | －
-Amazon FSx for Windows File Server | ○ | －
 Amazon Forecast | ○ | －
+Amazon FSx for Lustre | ○ | －
+Amazon FSx for Windows File   Server | ○ | －
 Amazon GameLift | ○ | －
-Amazon GuardDuty | ○ | －
+Amazon GuardDuty | ○ | ○
 Amazon Inspector | ○ | －
-Amazon Keyspaces (for Apache Cassandra) | ○ | －
+Amazon Keyspaces (for Apache   Cassandra) | ○ | －
 Amazon Kinesis Data Analytics | ○ | －
 Amazon Kinesis Data Firehose | ○ | ○
 Amazon Kinesis Data Streams | ○ | ○
@@ -162,34 +71,123 @@ Amazon Lightsail | ○ | －
 Amazon Location Service | ○ | －
 Amazon Lookout for Vision | ○ | －
 Amazon Lumberyard | ○ | －
-Amazon MQ | ○ | －
-Amazon Macie | ○ | －
+Amazon Macie | ○ | ○
 Amazon Managed Blockchain | ○ | －
-Amazon Managed Streaming for Apache   Kafka | ○ | －
-Amazon Managed Workflows for Apache   Airflow | ○ | －
+Amazon Managed Streaming for   Apache Kafka | ○ | －
+Amazon Managed Workflows for   Apache Airflow | ○ | －
+Amazon MQ | ○ | ○
 Amazon Neptune | ○ | －
 Amazon Personalize | ○ | －
 Amazon Pinpoint | ○ | －
 Amazon Polly | ○ | －
-Amazon Quantum Ledger Database (QLDB) | ○ | －
+Amazon Quantum Ledger   Database (QLDB) | ○ | －
 Amazon QuickSight | ○ | －
 Amazon Redshift | ○ | ○
 Amazon Rekognition | ○ | －
-Amazon Relational Database Service (RDS) | ○ | ○
+Amazon Relational Database   Service (RDS) | ○ | ○
 Amazon Route 53 | ○ | ○
 Amazon SageMaker | ○ | －
-Amazon Simple Email Service (SES) | ○ | －
-Amazon Simple Notification Service (SNS) | ○ | ○
-Amazon Simple Queue Service (SQS) | ○ | ○
-Amazon Simple Storage Service (S3) | ○ | ○
-Amazon Simple Workflow Service (SWF) | ○ | ○
+Amazon Simple Email Service   (SES) | ○ | －
+Amazon Simple Notification   Service (SNS) | ○ | ○
+Amazon Simple Queue Service   (SQS) | ○ | ○
+Amazon Simple Storage Service   (S3) | ○ | ○
+Amazon Simple Workflow   Service (SWF) | ○ | ○
 Amazon Sumerian | ○ | －
 Amazon Transcribe | ○ | －
 Amazon Transcribe Medical | ○ | －
 Amazon Translate | ○ | －
-Amazon Virtual Private Cloud (VPC) | ○ | ○
+Amazon Virtual Private Cloud   (VPC) | ○ | ○
 Amazon WorkDocs | ○ | －
 Amazon WorkSpaces | ○ | －
+AWS Amplify | ○ | －
+AWS App Mesh | ○ | －
+AWS Application Discovery   Service | ○ | －
+AWS AppSync | ○ | －
+AWS Artifact | ○ | ○
+AWS Audit Manager | ○ | －
+AWS Auto Scaling | ○ | －
+AWS Backup | ○ | ○
+AWS Batch | ○ | ○
+AWS Budgets | ○ | －
+AWS Certificate Manager | ○ | ○
+AWS Chatbot | ○ | ○
+AWS Cloud Map | ○ | －
+AWS Cloud9 | ○ | －
+AWS CloudFormation | ○ | ○
+AWS CloudHSM | ○ | －
+AWS CloudTrail | ○ | ○
+AWS CodeArtifact | ○ | －
+AWS CodeBuild | ○ | －
+AWS CodeCommit | ○ | ○
+AWS CodeDeploy | ○ | ○
+AWS CodePipeline | ○ | －
+AWS CodeStar | ○ | －
+AWS Compute Optimizer | ○ | －
+AWS Config | ○ | ○
+AWS Data Exchange | ○ | －
+AWS Data Pipeline | ○ | －
+AWS Database Migration   Service | ○ | ○
+AWS DataSync | ○ | －
+AWS DeepLens | ○ | －
+AWS Direct Connect | ○ | ○
+AWS Directory Service | ○ | －
+AWS Elastic Beanstalk | ○ | ○
+AWS Elemental MediaConnect | ○ | －
+AWS Elemental MediaConvert | ○ | －
+AWS Elemental MediaLive | ○ | －
+AWS Elemental MediaPackage | ○ | －
+AWS Elemental MediaStore | ○ | －
+AWS Elemental MediaTailor | ○ | －
+AWS Fargate | ○ | ○
+AWS Firewall Manager | ○ | －
+AWS Global Accelerator | ○ | ○
+AWS Glue | ○ | ○
+AWS Identity and Access   Management (IAM) | ○ | ○
+AWS IoT 1-Click | ○ | －
+AWS IoT Analytics | ○ | －
+AWS IoT Core | ○ | －
+AWS IoT Device Defender | ○ | －
+AWS IoT Device Management | ○ | －
+AWS IoT Events | ○ | －
+AWS IoT Greengrass | ○ | －
+AWS IoT Things Graph | ○ | －
+AWS IQ | ○ | ○
+AWS Key Management Service | ○ | ○
+AWS Lake Formation | ○ | －
+AWS Lambda | ○ | ○
+AWS License Manager | ○ | ○
+AWS Managed Services | ○ | －
+AWS Marketplace | ○ | ○
+AWS Migration Hub | ○ | －
+AWS OpsWorks for Chef   Automate | ○ | －
+AWS OpsWorks for Puppet   Enterprise | ○ | －
+AWS OpsWorks Stacks | ○ | －
+AWS Organizations | ○ | ○
+AWS Outposts | ○ | －
+AWS Personal Health Dashboard | ○ | ○
+AWS PrivateLink | ○ | ○
+AWS Proton | ○ | －
+AWS Resource Access Manager   (RAM) | ○ | －
+AWS RoboMaker | ○ | －
+AWS Secrets Manager | ○ | ○
+AWS Security Hub | ○ | ○
+AWS Server Migration Service   (SMS) | ○ | －
+AWS Serverless Application   Repository | ○ | －
+AWS Service Catalog | ○ | －
+AWS Shield | ○ | －
+AWS Single Sign-On | ○ | －
+AWS Snowball | ○ | ○
+AWS Step Functions | ○ | ○
+AWS Storage Gateway | ○ | －
+AWS Support | ○ | ○
+AWS Systems Manager | ○ | ○
+AWS Transfer Family | ○ | －
+AWS Transit Gateway | ○ | －
+AWS Trusted Advisor | ○ | －
+AWS VPN | ○ | ○
+AWS WAF | ○ | －
+AWS Well-Architected Tool | ○ | －
+AWS X-Ray | ○ | ○
 CloudEndure Disaster Recovery | ○ | ○
 CloudEndure Migration | ○ | ○
 Elastic Load Balancing | ○ | ○
@@ -200,6 +198,7 @@ VMware Cloud on AWS | ○ | －
 
 ## 更新履歴
 
+- 2021/04/20：Amazon GuardDuty、Amazon Macie、Amazon MQ、AWS Backup、AWS Chatbot、AWS CodeCommit、AWS License Manager、AWS Security Hubが追加されていました。
 - 2021/03/18：AWS BatchとAWS Global Acceleratorが追加されていました！
 - 2021/03/05：一覧にはないが、大阪リージョンではCloudShellも使えない模様。
 - 2021/03/05：Amazon Elastic File System (EFS)の更新を確認。
