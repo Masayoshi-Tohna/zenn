@@ -2,7 +2,7 @@
 title: "Google Keepの全メモを一括でアーカイブする方法"
 emoji: "📑"
 type: "tech"
-topics: ["Google", "Keep", "メモ]
+topics: ["Google", "Keep", "メモ"]
 published: true
 ---
 
